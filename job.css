@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+}
+
+.flex img {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+h3 {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.flex .text {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.button a {
+    background: #fff;
+    border: 3px solid #ccc;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px 25px;
+    color: #666;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    margin-top: 50px;
+    text-decoration: none; 
+}
