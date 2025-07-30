@@ -1,0 +1,37 @@
+#js-question {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    width: 15em;
+    height: 3em;
+}
+
+/* body {
+    background-image: url(images/image05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+body::before {
+    content: "";
+    background-image: url(images/image05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4; /* 透過性を指定 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* 背景として表示するために、他のコンテンツの後ろに配置 */
+}
